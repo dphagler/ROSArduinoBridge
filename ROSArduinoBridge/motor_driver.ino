@@ -9,7 +9,7 @@
 
 #ifdef USE_BASE
 
-#ifdef defined L298_MOTOR_DRIVER
+#ifdef L298_MOTOR_DRIVER
   void initMotorController() {
     digitalWrite(RIGHT_MOTOR_ENABLE, HIGH);
     digitalWrite(LEFT_MOTOR_ENABLE, HIGH);

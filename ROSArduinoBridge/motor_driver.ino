@@ -66,7 +66,7 @@
       LEFT_MOTOR.write(spd);
     }
     else /*if (i == RIGHT) //no need for condition*/ {
-      RIGHT_MOTOR.write(spd);
+      RIGHT_MOTOR.write(-spd);
     }
   }
   

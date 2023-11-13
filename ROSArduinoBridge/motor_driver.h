@@ -12,8 +12,8 @@
 #endif
 
 #ifdef SPARKMAX_MOTOR_DRIVER
-  #define LEFT_MOTOR_PIN 4
-  #define RIGHT_MOTOR_PIN  5
+  #define LEFT_MOTOR_PIN 7
+  #define RIGHT_MOTOR_PIN 8
   #include <Servo.h>
   Servo LEFT_MOTOR, RIGHT_MOTOR;
 #endif
